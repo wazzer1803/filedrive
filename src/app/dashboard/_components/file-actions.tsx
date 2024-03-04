@@ -291,5 +291,5 @@ export function FileCardActions({
   );
 }
 export function getFileUrl(fileId: Id<"_storage">): string {
-  return `https://proficient-pheasant-194.convex.cloud/api/storage/${fileId}`;
+  return `https://quaint-oyster-954.convex.cloud/api/storage/${fileId}`;
 }

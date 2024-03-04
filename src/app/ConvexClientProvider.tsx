@@ -4,7 +4,7 @@ import { ConvexProvider, ConvexReactClient } from "convex/react";
 import { ClerkProvider, useAuth } from "@clerk/nextjs";
 import { ConvexProviderWithClerk } from "convex/react-clerk";
 
-const convex = new ConvexReactClient("https://proficient-pheasant-194.convex.cloud");
+const convex = new ConvexReactClient("https://quaint-oyster-954.convex.cloud");
 
 export default function ConvexClientProvider({
   children,
