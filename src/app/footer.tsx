@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 
 export function Footer() {
   return (
@@ -6,18 +6,18 @@ export function Footer() {
       <div className="container mx-auto flex justify-between items-center">
         <div>FileDrive</div>
 
-        <Link className="text-blue-900 hover:text-blue-500" href="/privacy">
+        <div className="text-blue-900 hover:text-blue-500" >
           Privacy Policy
-        </Link>
-        <Link
+        </div>
+        <div
           className="text-blue-900 hover:text-blue-500"
-          href="/terms-of-service"
+         
         >
           Terms of Service
-        </Link>
-        <Link className="text-blue-900 hover:text-blue-500" href="/about">
+        </div>
+        <div className="text-blue-900 hover:text-blue-500" >
           About
-        </Link>
+        </div>
       </div>
     </div>
   );
